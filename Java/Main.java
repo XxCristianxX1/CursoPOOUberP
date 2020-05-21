@@ -25,7 +25,7 @@ public class Main {
         sfd.printDataSFD();
         Wealpons wealpons = new Wealpons(" Sfd ", " Luffy ", " Sfd ", " Sfd ", " Sfd ", " Pixel Gun 3D ", " Sanji ", " Sfd ", " Imaginated ");
         wealpons.printDataWealpons();
-	Super super = new Super();
+	Super super = new Super("Pepsi 140ml","Coca Cola 150ml","Postobon 150ml");
 	super.printDataSuper();
         //sfd.printDataSFD(); //imprime los objetos creados en la clase SFD
         //car.printDataCar(); //imprime los objetos creados en la clase Car
