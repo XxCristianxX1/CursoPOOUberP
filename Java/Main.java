@@ -2,7 +2,7 @@ package Java;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Musica en texto");
+        /*System.out.println("Musica en texto");
         Account account = new Account("1005045759","Kikin2001");
         Car car = new Car("QW548");    
         SFD sfd = new SFD("|SH| Gold D Cristian" , "|SH|" , 10 , "Waiter" ); 
@@ -24,10 +24,14 @@ public class Main {
         random.printDataRandom();
         sfd.printDataSFD();
         Wealpons wealpons = new Wealpons(" Sfd ", " Luffy ", " Sfd ", " Sfd ", " Sfd ", " Pixel Gun 3D ", " Sanji ", " Sfd ", " Imaginated ");
-        wealpons.printDataWealpons();
+        wealpons.printDataWealpons();*/
 	    //Super super = new Super("Pepsi 140ml","Coca Cola 150ml","Postobon 150ml");
 	    //super.printDataSuper();
         //sfd.printDataSFD(); //imprime los objetos creados en la clase SFD
         //car.printDataCar(); //imprime los objetos creados en la clase Car
+        Car car = new Car ("QPW754");
+        car.printDataCar();
+        car.setDriver("Diego");
+        car.setMotor("W16 cuádruple Turbo de 8,0 L");
     }
 }

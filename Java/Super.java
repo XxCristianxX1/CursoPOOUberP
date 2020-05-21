@@ -7,7 +7,7 @@ public class Super {
 	String postobon ;
 
 	void printDataSuper (){
-		System.out.println(" Pepsi: " + pepsi + " Coca-Cola: " + cocacola + " Postobon: " + postobon) ;
+		System.out.println(" Pepsi: " + pepsi + " Coca-Cola: " + cocacola + " Postobon: " + postobon);
 	}
 }
 
